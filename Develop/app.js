@@ -1,22 +1,24 @@
-// ===== Node Packages =====
+// NODE packages used
 const inquirer = require("inquirer");
 const fs = require("fs");
+
+//constructor and classes on where to pull from
 
 const Manager = require("./lib/Manager");
 const Intern = require("./lib/Intern");
 const Engineer = require("./lib/Engineer");
 
-// ===== START FUNCTION ===== 
+// Function begins
 async function start(){
     console.log("Let's make your Dream Team!");
 
     // Set Variable to hold HTML
     let teamHTML = "";
 
-    // Variable to hold number of team members
+    // Team members 
     let teamSize;
 
-    // First Question to ask to set up loop
+    // First Question to ask to set up loop to determine next steps for the user
     await inquirer.prompt(
         {
             type: "number",
@@ -27,7 +29,7 @@ async function start(){
     .then((data) => {
 
         // Number of team members placed in teamSize for scope purposes.
-        // 1 is added start from 1 rather than 0 for user understanding.
+        // 1 person to start instead of 0
         teamSize = data.noOfTeamMem + 1;
     });
     
@@ -37,7 +39,7 @@ async function start(){
         return;
     }
     
-    // Loop begins to ask questions depending on the size of the team
+    // Loops asking for team size must be greater than 1
     for(i = 1; i < teamSize; i++){
 
         // Global variables set
@@ -46,7 +48,7 @@ async function start(){
         let title;
         let email;
 
-        // Prompts user to answer the basic questions of the employee
+        // Employee prompts
         await inquirer.prompt([ 
             {
                 type: "input",
