@@ -26,7 +26,7 @@ Once you've completed every employee you will get a prompt that indicates "Succe
 
 Now check out the webpage you have built for your team under team.html and open in browser
 
-![Team overview] (Assets\Main example.png)
+![Team overview] (https://github.com/pboerma/EmployeeTamplateGenerator/blob/master/Assets/Main%20example.png)
 
 # Sources and dependencies
 
