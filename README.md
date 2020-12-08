@@ -38,7 +38,7 @@ Inquirer npm package
 
 # Video link on how it works
 
-(to be added)
+https://drive.google.com/file/d/1SdOi_9EO8UeBtxwfe5auwJdXwTKejJh9/view?usp=sharing
 
 # 
 
