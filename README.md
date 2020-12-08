@@ -22,11 +22,11 @@ Upon running the application in your terminal, you will be prompted to answer qu
 
 Once you've completed every employee you will get a prompt that indicates "Success!"
 
-![CLI example](Assets\CLI.jpg)
+![CLI example](https://github.com/pboerma/EmployeeTamplateGenerator/blob/master/Assets/CLI.jpg)
 
 Now check out the webpage you have built for your team under team.html and open in browser
 
-![Team overview] (Assets\Main example.png)
+![Team overview] (https://github.com/pboerma/EmployeeTamplateGenerator/blob/master/Assets/Main%20example.png)
 
 # Sources and dependencies
 
@@ -39,5 +39,7 @@ Inquirer npm package
 # Video link on how it works
 
 (to be added)
+
+# 
 
 
